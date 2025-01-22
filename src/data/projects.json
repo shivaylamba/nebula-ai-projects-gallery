@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "author": "Sarah Chen",
+      "title": "AI Task Manager",
+      "description": "Smart task management with AI prioritization",
+      "screenshot": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+      "liveUrl": "https://example.com/project1",
+      "repo": "https://github.com/example/project1",
+      "techStack": ["React", "TypeScript", "Nebius AI"]
+    },
+    {
+      "author": "Alex Kumar",
+      "title": "Code Companion",
+      "description": "AI-powered coding assistant",
+      "screenshot": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+      "liveUrl": "https://example.com/project2",
+      "repo": "https://github.com/example/project2",
+      "techStack": ["React", "Python", "Nebius AI"]
+    },
+    {
+      "author": "Maria Rodriguez",
+      "title": "Community Hub",
+      "description": "Connect with fellow developers",
+      "screenshot": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+      "liveUrl": "https://example.com/project3",
+      "repo": "https://github.com/example/project3",
+      "techStack": ["React", "Node.js", "Nebius AI"]
+    }
+  ]
+}
