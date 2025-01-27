@@ -4,7 +4,7 @@
       "author": "Sarah Chen",
       "title": "AI Task Manager",
       "description": "Smart task management with AI prioritization",
-      "screenshot": "/src/data/screenshots/task-manager.png",
+      "screenshot": "./data/screenshots/task-manager.png",
       "liveUrl": "https://example.com/project1",
       "repo": "https://github.com/example/project1",
       "techStack": ["React", "TypeScript", "Nebius AI"]
@@ -13,7 +13,7 @@
       "author": "Alex Kumar",
       "title": "Code Companion",
       "description": "AI-powered coding assistant",
-      "screenshot": "/src/data/screenshots/code-companion.png",
+      "screenshot": "./data/screenshots/code-companion.png",
       "liveUrl": "https://example.com/project2",
       "repo": "https://github.com/example/project2",
       "techStack": ["React", "Python", "Nebius AI"]
@@ -22,7 +22,7 @@
       "author": "Maria Rodriguez",
       "title": "Community Hub",
       "description": "Connect with fellow developers",
-      "screenshot": "/src/data/screenshots/community-hub.png",
+      "screenshot": "./data/screenshots/community-hub.png",
       "liveUrl": "https://example.com/project3",
       "repo": "https://github.com/example/project3",
       "techStack": ["React", "Node.js", "Nebius AI"]
@@ -31,7 +31,7 @@
       "author": "Arindam Majumder",
       "title": "LogoAI",
       "description": "LogoAI - AI-Powered Logo Generator",
-      "screenshot": "/src/data/screenshots/logoai.png",
+      "screenshot": "./data/screenshots/logoai.png",
       "liveUrl": "https://www.logoai.in/",
       "repo": "https://github.com/Arindam200/logo-ai",
       "techStack": ["NextJS", "TypeScript", "Nebius AI", "Clerk", "NeonDB"]
