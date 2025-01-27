@@ -2,7 +2,7 @@
 
 ## Adding a New Project
 
-1. Add your project screenshot to the `/public/project-screenshots/` folder
+1. Add your project screenshot to the `/src/data/screenshots/` folder
 2. Update `src/data/projects.json` with your project details
 3. Create a Pull Request
 
