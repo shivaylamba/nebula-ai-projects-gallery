@@ -17,10 +17,10 @@ export const Hero = () => {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Button
-              onClick={() => window.open("https://github.com/your-repo", "_blank")}
+              onClick={() => window.open("https://github.com/shivaylamba/nebula-ai-projects-gallery", "_blank")}
               className="bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700"
             >
-              Add Your Project
+              Add Your Project to the Showcase
             </Button>
           </div>
         </div>
