@@ -4,7 +4,7 @@
       "author": "Arindam Majumder",
       "title": "LogoAI",
       "description": "LogoAI - AI-Powered Logo Generator",
-      "screenshot": "src/data/screenshots/logoai.png",
+      "screenshot": "./data/screenshots/logoai.png",
       "liveUrl": "https://www.logoai.in/",
       "repo": "https://github.com/Arindam200/logo-ai",
       "techStack": ["NextJS", "TypeScript", "Nebius AI", "Clerk", "NeonDB"]
