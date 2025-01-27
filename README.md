@@ -1,5 +1,17 @@
 # Welcome to your Lovable project
 
+## Adding a New Project
+
+1. Add your project screenshot to the `/public/project-screenshots/` folder
+2. Update `src/data/projects.json` with your project details
+3. Create a Pull Request
+
+### Screenshot Requirements
+- Format: PNG or JPG
+- Aspect ratio: 16:9 recommended
+- Max size: 1MB
+- Name format: descriptive-name.png (e.g., ai-task-manager.png)
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/6a643dc1-6c6c-4846-89ad-021ec191e9a2
