@@ -8,6 +8,33 @@
       "liveUrl": "https://www.logoai.in/",
       "repo": "https://github.com/Arindam200/logo-ai",
       "techStack": ["NextJS", "TypeScript", "Nebius AI", "Clerk", "NeonDB"]
+    },
+    {
+      "author": "Amitesh Anand",
+      "title": "Patakaro",
+      "description": "Patakaro - Snap a pic and discover fascinating facts about anything!",
+      "screenshot": "/screenshots/patakaro.png",
+      "liveUrl": "https://patakaro.vercel.app/",
+      "repo": "",
+      "techStack": ["Nebius AI", "Lovable"]
+    },
+    {
+      "author": "Amitesh Anand",
+      "title": "inkscapeai",
+      "description": "Upload any image and input text to get a similar AI-generated image with text on it",
+      "screenshot": "/screenshots/inkscape.png",
+      "liveUrl": "https://inkscapeai.vercel.app/",
+      "repo": "",
+      "techStack": ["Nebius AI", "Lovable"]
+    },
+    {
+      "author": "Amitesh Anand",
+      "title": "Landmark Lens",
+      "description": "Upload an image of a famous landmark to discover its location and details",
+      "screenshot": "/screenshots/landmarklens.png",
+      "liveUrl": "https://landmark-lens.vercel.app/",
+      "repo": "",
+      "techStack": ["Nebius AI", "Lovable"]
     }
   ]
 }
