@@ -2,7 +2,7 @@
 
 1. Add your screenshot image here
 2. Name it descriptively (e.g., `ai-task-manager.png`)
-3. Reference it in projects.json as `./data/screenshots/your-image.png`
+3. Reference it in projects.json as `/screenshots/your-image.png`
 
 Image requirements:
 - Format: PNG or JPG
