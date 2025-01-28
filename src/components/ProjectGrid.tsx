@@ -7,23 +7,32 @@ interface ProjectGridProps {
   projects: Project[];
 }
 
-const ALLOWED_TECH_STACKS = ["All", "NextJS", "TypeScript", "Python", "React", "Java", "C#", "Svelte"];
-
 export const ProjectGrid = ({ projects }: ProjectGridProps) => {
   const [selectedTech, setSelectedTech] = useState<string | null>(null);
   
-  const filteredProjects = selectedTech && selectedTech !== "All"
+  const allTechStacks = Array.from(
+    new Set(projects.flatMap((project) => project.techStack))
+  );
+
+  const filteredProjects = selectedTech
     ? projects.filter((project) => project.techStack.includes(selectedTech))
     : projects;
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4">
-      <div className="flex flex-wrap gap-2 mb-8 justify-center">
-        {ALLOWED_TECH_STACKS.map((tech) => (
+      <div className="flex flex-wrap gap-2 mb-8">
+        <Button
+          variant={selectedTech === null ? "default" : "outline"}
+          onClick={() => setSelectedTech(null)}
+          className="text-sm"
+        >
+          All
+        </Button>
+        {allTechStacks.map((tech) => (
           <Button
             key={tech}
-            variant={selectedTech === tech || (tech === "All" && !selectedTech) ? "default" : "outline"}
-            onClick={() => setSelectedTech(tech === "All" ? null : tech)}
+            variant={selectedTech === tech ? "default" : "outline"}
+            onClick={() => setSelectedTech(tech)}
             className="text-sm"
           >
             {tech}

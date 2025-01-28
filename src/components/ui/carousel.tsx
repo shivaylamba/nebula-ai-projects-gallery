@@ -1,5 +1,4 @@
 import * as React from "react"
-import { useEffect, useState } from "react"
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
 } from "embla-carousel-react"
@@ -57,7 +56,6 @@ const Carousel = React.forwardRef<
     },
     ref
   ) => {
-    const [mounted, setMounted] = useState(false);
     const [carouselRef, api] = useEmblaCarousel(
       {
         ...opts,
@@ -67,11 +65,6 @@ const Carousel = React.forwardRef<
     )
     const [canScrollPrev, setCanScrollPrev] = React.useState(false)
     const [canScrollNext, setCanScrollNext] = React.useState(false)
-
-    // Prevent hydration mismatch
-    useEffect(() => {
-      setMounted(true)
-    }, [])
 
     const onSelect = React.useCallback((api: CarouselApi) => {
       if (!api) {
@@ -124,10 +117,6 @@ const Carousel = React.forwardRef<
         api?.off("select", onSelect)
       }
     }, [api, onSelect])
-
-    if (!mounted) {
-      return null;
-    }
 
     return (
       <CarouselContext.Provider
