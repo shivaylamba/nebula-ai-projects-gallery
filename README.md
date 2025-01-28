@@ -1,5 +1,5 @@
 # Welcome to Nebius AI Projects Gallery
-<img width="1994" alt="image" src="https://github.com/user-attachments/assets/76581723-ca7d-465b-97bf-2d5e6042ad42" />
+<img width="2051" alt="image" src="https://github.com/user-attachments/assets/aeb1c3cb-82be-44bc-b69c-bf3f814e8dcd" />
 
 
 A curation of awesome projects built by developers with [Nebius.ai](https://dub.sh/nebius) to draw inspirations when they decide to create their own. Want to add yours or someone else's, feel free to raise a PR to add them.
