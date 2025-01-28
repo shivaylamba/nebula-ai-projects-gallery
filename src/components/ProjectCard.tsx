@@ -8,6 +8,10 @@ interface ProjectCardProps {
 }
 
 export const ProjectCard = ({ project }: ProjectCardProps) => {
+  const MAX_VISIBLE_TAGS = 3;
+  const visibleTags = project.techStack.slice(0, MAX_VISIBLE_TAGS);
+  const remainingTags = project.techStack.length - MAX_VISIBLE_TAGS;
+
   return (
     <Card className="group overflow-hidden transition-all duration-300 hover:shadow-xl">
       <CardHeader className="p-0">
@@ -28,22 +32,29 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           {project.description}
         </p>
         <div className="flex flex-wrap gap-2">
-          {project.techStack.map((tech) => (
+          {visibleTags.map((tech) => (
             <Badge key={tech} variant="secondary">
               {tech}
             </Badge>
           ))}
+          {remainingTags > 0 && (
+            <Badge variant="outline" className="text-gray-500">
+              +{remainingTags} more
+            </Badge>
+          )}
         </div>
       </CardContent>
       <CardFooter className="p-4 pt-0 flex justify-end gap-2">
-        <a
-          href={project.repo}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
-        >
-          <Github className="h-5 w-5" />
-        </a>
+        {project.repo && (
+          <a
+            href={project.repo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
+          >
+            <Github className="h-5 w-5" />
+          </a>
+        )}
         <a
           href={project.liveUrl}
           target="_blank"

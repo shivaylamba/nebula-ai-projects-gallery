@@ -10,31 +10,31 @@
       "techStack": ["NextJS", "TypeScript", "Nebius AI", "Clerk", "NeonDB"]
     },
     {
-      "author": "Amitesh Anand",
-      "title": "Patakaro",
+      "author": "Mr. Ånand",
+      "title": "Do You Know?",
       "description": "Patakaro - Snap a pic and discover fascinating facts about anything!",
       "screenshot": "/screenshots/patakaro.png",
       "liveUrl": "https://patakaro.vercel.app/",
       "repo": "",
-      "techStack": ["Nebius AI", "Lovable"]
+      "techStack": ["Nebius AI", "Lovable", "Supabase", "Vite"]
     },
     {
-      "author": "Amitesh Anand",
-      "title": "inkscapeai",
-      "description": "Upload any image and input text to get a similar AI-generated image with text on it",
-      "screenshot": "/screenshots/inkscape.png",
-      "liveUrl": "https://inkscapeai.vercel.app/",
+      "author": "Mr. Ånand",
+      "title": "PlayPixAI",
+      "description": "PlayPixAI - Upload image of your fav athletes and get career insight & action shots",
+      "screenshot": "/screenshots/playpixai.png",
+      "liveUrl": "https://playpixai.vercel.app/",
       "repo": "",
-      "techStack": ["Nebius AI", "Lovable"]
+      "techStack": ["Nebius AI", "React", "Vercel"]
     },
     {
-      "author": "Amitesh Anand",
-      "title": "Landmark Lens",
-      "description": "Upload an image of a famous landmark to discover its location and details",
-      "screenshot": "/screenshots/landmarklens.png",
-      "liveUrl": "https://landmark-lens.vercel.app/",
+      "author": "Mr. Ånand",
+      "title": "Imagify",
+      "description": "Imagify - Multimodel img-gen playground",
+      "screenshot": "/screenshots/imagify.png",
+      "liveUrl": "https://nvqfoijd9khkrnks.live.co.dev/",
       "repo": "",
-      "techStack": ["Nebius AI", "Lovable"]
+      "techStack": ["Nebius AI", "co.dev", "OpenAI"]
     }
   ]
 }

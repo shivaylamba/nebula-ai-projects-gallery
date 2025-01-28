@@ -4,6 +4,8 @@
 
 A curation of awesome projects built by developers with [Nebius.ai](https://dub.sh/nebius) to draw inspirations when they decide to create their own. Want to add yours or someone else's, feel free to raise a PR to add them.
 
+> If you're building something cool and wants to share about process or looking for feedbacks, come chat with Nebius AI community on [Discord](https://discord.gg/47sB8jXk).
+
 ## Adding a New Project
 
 1. Add your project screenshot to the `public/screenshots/` folder
@@ -18,7 +20,7 @@ A curation of awesome projects built by developers with [Nebius.ai](https://dub.
 
 ## Project info
 
-**URL**: nebula-project-galleria.vercel.app
+**URL**: [nebula-project-galleria.vercel.app](https://nebula-project-galleria.vercel.app/)
 
 ## How can I edit this code?
 

@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   return (
-    <div className="relative isolate px-6 pt-14 lg:px-8">
+    <div className="relative isolate px-6 pt-24 lg:px-8">
       <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
         <div className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#4F46E5] to-[#7C3AED] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" />
       </div>
@@ -17,7 +17,7 @@ export const Hero = () => {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Button
-              onClick={() => window.open("https://github.com/shivaylamba/nebula-ai-projects-gallery", "_blank")}
+              onClick={() => window.open("https://github.com/shivaylamba/nebula-ai-projects-gallery?tab=readme-ov-file#adding-a-new-project", "_blank")}
               className="bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700"
             >
               Add Your Project to the Showcase
